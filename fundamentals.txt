@@ -1,0 +1,71 @@
+console.log() - to print out the messages/output to the web console
+Messages should be written in () and surrounded by "" or '' 
+//  - single line comments
+/*    */  - multi-line comments
+
+Variables
+
+let  - sets variables that will change
+const - sets variables with constant value
+
+const name = value;
+let name = value;
+
+string value should be in ""
+
+than we console.log(name) to print out the output
+
+to change value of variable that was set with let :
+
+let variableName = "First value";
+variableName = "Second value";
+
+Data Types:
+
+#Number 
+ let var = 343
+
+ ##String
+ let var = "in quaotas single or double"
+
+ ###Boolean (True or False)
+ let var = True
+
+ ####Null and Undefined
+ data types that represent there's an absence of a value, and are written with null and undefined respectively (without double or single quotes):
+
+    * null represents the intentional absence of value.
+    * undefined means the variable has been declared, but its value has not been assigned.
+
+let var = null 
+let varSecond = undefined 
+
+// Write code below 💖
+let number = 5
+let string = "Hello"
+let myBoolean = false
+
+console.log(number)
+console.log(string)
+console.log(myBoolean)
+
+
+
+
+Operations:
+
+JavaScript has the following arithmetic operators:
+
+    + Addition
+    - Subtraction
+    * Multiplication
+    / Division
+    % Modulo (returns the remainder)
+
+
+// Write code below 💖
+const temp = 82
+
+let celsius = (temp - 32) / 1.8
+
+console.log(celsius)
