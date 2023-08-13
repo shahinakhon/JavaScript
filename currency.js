@@ -13,6 +13,5 @@ let total = (cn * yuan) + jp * yen + kr * won
 
 console.log("What do you have left in yuan?", cn)
 console.log("What do you have left in yen?", jp)
-consloe.log("What do you have left in won?", kr)
-
-consloe.log(total)
+console.log("What do you have left in won?", kr)
+console.log("Your total is:", total)
