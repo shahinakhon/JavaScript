@@ -69,3 +69,13 @@ const temp = 82
 let celsius = (temp - 32) / 1.8
 
 console.log(celsius)
+
+
+Conditionals
+ let num = Math.random();
+
+ if (num > 0.5) {
+    console.log("Head"s");
+} else {
+    console.log("Tails");
+}
